@@ -88,7 +88,7 @@ html {
 .nav__link > a::after{
     content: "";
     position: absolute;
-    background-image: url(/img/down_arrow.png);
+    background-image: url(img/down_arrow.png);
     width: 7px;
     height: 5px;
     right: 8px;
@@ -160,7 +160,7 @@ html {
     height: 1000px;
     position: relative;
     overflow: hidden;
-    background: url(/img/bg.jpg);
+    background: url(img/bg.jpg);
     background-size: cover;
 }
 .zoom::before{
@@ -760,7 +760,7 @@ textarea{
     max-width: 100%;
     margin: 0 auto;
     height: 350px;
-    background: #0E4D8F url('/img/earth.png');
+    background: #0E4D8F url('img/earth.png');
     border-radius: 50%;
     background-size: cover;
     box-shadow: 0 0 50px rgba(0,0,0,0.85);
@@ -784,7 +784,7 @@ textarea{
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
-    background: url('/img/cloud.png');
+    background: url('img/cloud.png');
     background-size: cover;
     animation: animate  18s linear infinite;
     z-index: 1;
